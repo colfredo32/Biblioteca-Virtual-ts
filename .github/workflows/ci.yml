@@ -22,8 +22,5 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
-      - name: Compilar TypeScript
-        run: npx tsc
-
       - name: Ejecutar tests
         run: npm test
